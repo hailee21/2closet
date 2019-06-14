@@ -1,0 +1,15 @@
+package kr.or.ksmart.closet;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ClosetApplication {
+
+	public static void main(String[] args) {
+		System.out.println("=======================tomcat 실행 전==========================");
+		SpringApplication.run(ClosetApplication.class, args);
+		System.out.println("=======================Spring 구동 후==========================");
+	}
+
+}
